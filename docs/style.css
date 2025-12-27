@@ -32,11 +32,9 @@ body{
   background: radial-gradient(1200px 700px at 20% 0%, #1b3cff 0%, rgba(27,60,255,0) 55%),
               radial-gradient(900px 600px at 100% 20%, #6c7bff 0%, rgba(108,123,255,0) 60%),
               linear-gradient(180deg, #07124a 0%, #0b1b63 55%, #07124a 100%);
-  overflow-x: clip;
+  overflow-x: hidden;
 }
-@supports not (overflow: clip){
-  body{ overflow-x: hidden; }
-}
+
 
 a{ color: inherit; text-decoration: none; }
 
