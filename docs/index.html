@@ -4,73 +4,83 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Yo! Galina</title>
-    <meta name="description" content="Йога с Галей: индивидуальные и групповые занятия для всех уровней" />
+    <meta name="description" content="Йога с Галей" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main class="page">
-      <section class="card hero">
-        <div class="hero__content">
-          <span class="badge">
-            <span class="dot" aria-hidden="true"></span>
-            <span>Yo! Galina</span>
-          </span>
 
-          <h1 class="title">Йога с Галей</h1>
-          <p class="subtitle">
-            Индивидуальные и групповые занятия по йоге для всех уровней подготовки
-          </p>
-
-          <div class="meta" aria-label="Краткая информация">
-            <div class="pill" title="Локация">
-              <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M12 22s7-4.4 7-11a7 7 0 1 0-14 0c0 6.6 7 11 7 11z" fill="none" stroke="rgba(16,20,38,.8)" stroke-width="2"/>
-                <circle cx="12" cy="11" r="2.5" fill="none" stroke="rgba(16,20,38,.8)" stroke-width="2"/>
-              </svg>
-              <span>Ramat Gan</span>
+    <main class="wrap">
+      <div class="grid">
+        <!-- Left column -->
+        <div class="shell">
+          <section class="card hero">
+            <div class="badge">
+              <span class="dot" aria-hidden="true"></span>
+              <span>Yo! Galina</span>
             </div>
 
-            <div class="pill" title="Формат">
-              <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M12 2l1.6 6.2L20 10l-6.4 1.8L12 18l-1.6-6.2L4 10l6.4-1.8L12 2z" fill="none" stroke="rgba(16,20,38,.8)" stroke-width="2"/>
-              </svg>
-              <span>Оффлайн + онлайн</span>
+            <div class="hero-inner">
+              <div>
+                <h1 class="title">Йога с Галей</h1>
+                <p class="subtitle">
+                  Индивидуальные и групповые занятия по йоге для всех уровней подготовки
+                </p>
+
+                <div class="meta" aria-label="Краткая информация">
+                  <div class="pill" title="Локация">
+                    <!-- pin -->
+                    <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M12 22s7-4.4 7-11a7 7 0 1 0-14 0c0 6.6 7 11 7 11z" fill="none" stroke="rgba(16,20,38,.8)" stroke-width="2"/>
+                      <circle cx="12" cy="11" r="2.5" fill="none" stroke="rgba(16,20,38,.8)" stroke-width="2"/>
+                    </svg>
+                    <span>Ramat Gan</span>
+                  </div>
+
+                  <div class="pill" title="Формат">
+                    <!-- spark -->
+                    <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M12 2l1.6 6.2L20 10l-6.4 1.8L12 18l-1.6-6.2L4 10l6.4-1.8L12 2z" fill="none" stroke="rgba(16,20,38,.8)" stroke-width="2"/>
+                    </svg>
+                    <span>Оффлайн + онлайн</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="hero-art" aria-hidden="true">
+                <div class="blob b1"></div>
+                <div class="blob b2"></div>
+                <div class="blob b3"></div>
+
+                <svg class="spark" viewBox="0 0 24 24">
+                    <path d="M12 2l1.6 6.2L20 10l-6.4 1.8L12 18l-1.6-6.2L4 10l6.4-1.8L12 2z"
+                        fill="rgba(255,255,255,0.0)" stroke="rgba(16,20,38,.35)" stroke-width="2"/>
+                </svg>
+                <img class="hero-photo" src="img/i1.png" alt="" loading="lazy" />
+
+              </div>
             </div>
-          </div>
-        </div>
+          </section>
 
-        <div class="hero__media" aria-hidden="true">
-          <div class="blob b1"></div>
-          <div class="blob b2"></div>
-          <div class="blob b3"></div>
+          <section class="card links" style="margin-top:14px;">
+            <h2 class="section-title">Быстрые ссылки</h2>
 
-          <svg class="spark" viewBox="0 0 24 24">
-            <path d="M12 2l1.6 6.2L20 10l-6.4 1.8L12 18l-1.6-6.2L4 10l6.4-1.8L12 2z" fill="rgba(255,255,255,0.0)" stroke="rgba(16,20,38,.35)" stroke-width="2"/>
-          </svg>
-          <img class="hero-photo" src="img/i1.png" alt="Галя на занятии по йоге" loading="lazy" />
-        </div>
-      </section>
+            <!-- ✅ EDIT LINKS HERE -->
 
-      <section class="card links">
-        <div class="links__head">
-          <h2 class="section-title">Быстрые ссылки</h2>
-        </div>
 
-        <ul class="link-list">
-          <li>
             <a class="link" href="https://example.com/schedule" target="_blank" rel="noopener">
               <span class="icon yellow" aria-hidden="true">
+                <!-- clock -->
                 <svg width="20" height="20" viewBox="0 0 24 24">
                   <path d="M12 22a10 10 0 1 0-10-10 10 10 0 0 0 10 10z" fill="none" stroke="rgba(16,20,38,.9)" stroke-width="2"/>
                   <path d="M12 6v6l4 2" fill="none" stroke="rgba(16,20,38,.9)" stroke-width="2" stroke-linecap="round"/>
                 </svg>
               </span>
               <span class="link-text">
-                <span class="link-title">Расписание</span>
-                <span class="link-sub">Неделя / ближайшие классы</span>
+                <strong>Расписание</strong>
+                <span>Неделя / ближайшие классы</span>
               </span>
               <span class="chev" aria-hidden="true">
                 <svg width="18" height="18" viewBox="0 0 24 24">
@@ -78,19 +88,19 @@
                 </svg>
               </span>
             </a>
-          </li>
 
-          <li>
             <a class="link" href="https://example.com/pricing" target="_blank" rel="noopener">
               <span class="icon lilac" aria-hidden="true">
+                <!-- tag -->
                 <svg width="20" height="20" viewBox="0 0 24 24">
-                  <path d="M20.6 13.6l-7 7a2 2 0 0 1-2.8 0L3 12.8V3h9.8l7.8 7.8a2 2 0 0 1 0 2.8z" fill="none" stroke="rgba(16,20,38,.9)" stroke-width="2" stroke-linejoin="round"/>
+                  <path d="M20.6 13.6l-7 7a2 2 0 0 1-2.8 0L3 12.8V3h9.8l7.8 7.8a2 2 0 0 1 0 2.8z"
+                        fill="none" stroke="rgba(16,20,38,.9)" stroke-width="2" stroke-linejoin="round"/>
                   <circle cx="7.5" cy="7.5" r="1.5" fill="none" stroke="rgba(16,20,38,.9)" stroke-width="2"/>
                 </svg>
               </span>
               <span class="link-text">
-                <span class="link-title">Цены / абонементы</span>
-                <span class="link-sub">Разовые / пакеты / пробное</span>
+                <strong>Цены / абонементы</strong>
+                <span>Разовые / пакеты / пробное</span>
               </span>
               <span class="chev" aria-hidden="true">
                 <svg width="18" height="18" viewBox="0 0 24 24">
@@ -98,19 +108,19 @@
                 </svg>
               </span>
             </a>
-          </li>
 
-          <li>
             <a class="link" href="https://example.com/directions" target="_blank" rel="noopener">
               <span class="icon pink" aria-hidden="true">
+                <!-- lotus-ish -->
                 <svg width="20" height="20" viewBox="0 0 24 24">
-                  <path d="M12 21s-5-2-5-7c0-2 1-4 3-6 1 2 2 3 2 3s1-1 2-3c2 2 3 4 3 6 0 5-5 7-5 7z" fill="none" stroke="rgba(16,20,38,.9)" stroke-width="2" stroke-linejoin="round"/>
+                  <path d="M12 21s-5-2-5-7c0-2 1-4 3-6 1 2 2 3 2 3s1-1 2-3c2 2 3 4 3 6 0 5-5 7-5 7z"
+                        fill="none" stroke="rgba(16,20,38,.9)" stroke-width="2" stroke-linejoin="round"/>
                   <path d="M12 11v10" fill="none" stroke="rgba(16,20,38,.35)" stroke-width="2" stroke-linecap="round"/>
                 </svg>
               </span>
               <span class="link-text">
-                <span class="link-title">Направления</span>
-                <span class="link-sub">Хатха / мягкая / дыхание / терапевтич.</span>
+                <strong>Направления</strong>
+                <span>Хатха / мягкая / дыхание / терапевтич.</span>
               </span>
               <span class="chev" aria-hidden="true">
                 <svg width="18" height="18" viewBox="0 0 24 24">
@@ -118,67 +128,76 @@
                 </svg>
               </span>
             </a>
-          </li>
 
-          <li>
+
             <details class="link--expand">
-              <summary class="link link-summary">
+            <summary class="link link-summary">
                 <span class="icon" aria-hidden="true">
-                  <svg width="20" height="20" viewBox="0 0 24 24">
-                    <path d="M9 18l-6 3V6l6-3 6 3 6-3v15l-6 3-6-3z" fill="none" stroke="rgba(16,20,38,.9)" stroke-width="2" stroke-linejoin="round"/>
-                    <path d="M9 3v15M15 6v15" fill="none" stroke="rgba(16,20,38,.35)" stroke-width="2"/>
-                  </svg>
+                <!-- map icon -->
+                <svg width="20" height="20" viewBox="0 0 24 24">
+                    <path d="M9 18l-6 3V6l6-3 6 3 6-3v15l-6 3-6-3z"
+                        fill="none" stroke="rgba(16,20,38,.9)" stroke-width="2" stroke-linejoin="round"/>
+                    <path d="M9 3v15M15 6v15"
+                        fill="none" stroke="rgba(16,20,38,.35)" stroke-width="2"/>
+                </svg>
                 </span>
 
                 <span class="link-text">
-                  <span class="link-title">Как добраться</span>
-                  <span class="link-sub">2 локации · карта</span>
+                <strong>Как добраться</strong>
+                <span>2 локации · карта</span>
                 </span>
 
                 <span class="chev" aria-hidden="true">
-                  <svg width="18" height="18" viewBox="0 0 24 24">
-                    <path d="M9 6l6 6-6 6" fill="none" stroke="rgba(16,20,38,.8)" stroke-width="2" stroke-linecap="round"/>
-                  </svg>
+                <svg width="18" height="18" viewBox="0 0 24 24">
+                    <path d="M9 6l6 6-6 6"
+                        fill="none" stroke="rgba(16,20,38,.8)" stroke-width="2" stroke-linecap="round"/>
+                </svg>
                 </span>
-              </summary>
+            </summary>
 
-              <div class="locations">
+            <!-- EXPANDED CONTENT -->
+            <div class="locations">
+                <!-- LOCATION 1 -->
                 <a class="location" href="https://maps.app.goo.gl/QsadpobBFnYBbNJd9" target="_blank" rel="noopener">
-                  <img src="img/i3.jpg" alt="Студия в Рамат Гане: ул. Сдерот а-елед, 8">
-                  <div>
+                <img src="img/i3.jpg" alt="Ramat Gan, sderot a-eled, 8">
+                <div>
                     <strong>Рамат Ган</strong>
                     <span>ул. Сдерот а-елед, 8</span>
                     <span class="map-hint">
-                      <svg class="map-ico" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
-                        <path d="M9 18l-6 3V6l6-3 6 3 6-3v15l-6 3-6-3z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
-                        <path d="M9 3v15M15 6v15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                      </svg>
-                      <span>Посмотреть на карте →</span>
-                    </span>
-                  </div>
+                    <svg class="map-ico" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M9 18l-6 3V6l6-3 6 3 6-3v15l-6 3-6-3z"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                        <path d="M9 3v15M15 6v15"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                    <span>Посмотреть на карте →</span>
+                    </span>              
+                </div>
                 </a>
 
+                <!-- LOCATION 2 -->
                 <a class="location" href="https://maps.app.goo.gl/LHcPE7vhMXeEEdWb6" target="_blank" rel="noopener">
-                  <img src="img/i2.jpg" alt="Занятия в парке Яркон у Шева Таханот">
-                  <div>
+                <img src="img/i2.jpg" alt="Park Yarkon">
+                <div>
                     <strong>парк Яркон</strong>
                     <span>Шева Таханот (рядом с воздушным шаром)</span>
                     <span class="map-hint">
-                      <svg class="map-ico" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
-                        <path d="M9 18l-6 3V6l6-3 6 3 6-3v15l-6 3-6-3z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
-                        <path d="M9 3v15M15 6v15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                      </svg>
-                      <span>Посмотреть на карте →</span>
+                    <svg class="map-ico" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M9 18l-6 3V6l6-3 6 3 6-3v15l-6 3-6-3z"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                        <path d="M9 3v15M15 6v15"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                    <span>Посмотреть на карте →</span>
                     </span>
-                  </div>
+                </div>
                 </a>
-              </div>
+            </div>
             </details>
-          </li>
 
-          <li>
             <a class="link" href="https://www.instagram.com/yo_galina/" target="_blank" rel="noopener">
               <span class="icon" aria-hidden="true">
+                <!-- instagram-ish -->
                 <svg width="20" height="20" viewBox="0 0 24 24">
                   <rect x="6" y="6" width="12" height="12" rx="3" fill="none" stroke="rgba(16,20,38,.9)" stroke-width="2"/>
                   <circle cx="12" cy="12" r="3" fill="none" stroke="rgba(16,20,38,.9)" stroke-width="2"/>
@@ -186,8 +205,8 @@
                 </svg>
               </span>
               <span class="link-text">
-                <span class="link-title">Instagram</span>
-                <span class="link-sub">Анонсы / сторис</span>
+                <strong>Instagram</strong>
+                <span>Анонсы / сторис</span>
               </span>
               <span class="chev" aria-hidden="true">
                 <svg width="18" height="18" viewBox="0 0 24 24">
@@ -195,19 +214,22 @@
                 </svg>
               </span>
             </a>
-          </li>
 
-          <li>
             <a class="link" href="https://wa.me/972587823076" target="_blank" rel="noopener">
               <span class="icon" aria-hidden="true">
+                <!-- whatsapp-ish -->
                 <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M20.5 12a8.5 8.5 0 0 1-12.7 7.4L4 20l.7-3.6A8.5 8.5 0 1 1 20.5 12z" fill="none" stroke="rgba(16,20,38,.9)" stroke-width="2" stroke-linejoin="round"/>
-                  <path d="M9.2 9.3c.2-.3.4-.4.7-.3l.8.3c.3.1.4.4.3.7l-.3.8c-.1.3 0 .6.2.8.7.8 1.4 1.4 2.2 2 .3.2.6.2.9.1l.9-.4c.3-.1.6 0 .8.2l.6.7c.2.2.2.6 0 .8-.4.6-1.1 1-2 1-1.2 0-2.6-.6-4-2-1.3-1.3-2-2.6-2-3.9 0-.9.4-1.7 1-2.2z" fill="none" stroke="rgba(16,20,38,.9)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <!-- bubble -->
+                <path d="M20.5 12a8.5 8.5 0 0 1-12.7 7.4L4 20l.7-3.6A8.5 8.5 0 1 1 20.5 12z"
+                        fill="none" stroke="rgba(16,20,38,.9)" stroke-width="2" stroke-linejoin="round"/>
+                <!-- phone -->
+                <path d="M9.2 9.3c.2-.3.4-.4.7-.3l.8.3c.3.1.4.4.3.7l-.3.8c-.1.3 0 .6.2.8.7.8 1.4 1.4 2.2 2 .3.2.6.2.9.1l.9-.4c.3-.1.6 0 .8.2l.6.7c.2.2.2.6 0 .8-.4.6-1.1 1-2 1-1.2 0-2.6-.6-4-2-1.3-1.3-2-2.6-2-3.9 0-.9.4-1.7 1-2.2z"
+                        fill="none" stroke="rgba(16,20,38,.9)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
               </span>
               <span class="link-text">
-                <span class="link-title">WhatsApp</span>
-                <span class="link-sub">Для связи со мной</span>
+                <strong>WhatsApp</strong>
+                <span>Для связи со мной</span>
               </span>
               <span class="chev" aria-hidden="true">
                 <svg width="18" height="18" viewBox="0 0 24 24">
@@ -215,20 +237,20 @@
                 </svg>
               </span>
             </a>
-          </li>
 
-          <li>
             <a class="link" href="https://t.me/yo_galina" target="_blank" rel="noopener">
               <span class="icon" aria-hidden="true">
+                <!-- telegram-ish -->
                 <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M21 4L3.7 11.2c-.9.4-.9 1.6.1 1.9l4.5 1.4 1.7 5.3c.3.9 1.5 1.1 2 .3l2.6-3.9 4.7 3.4c.8.6 1.9.1 2.1-.9L23 5.6c.2-1.1-.9-2-2-1.6z" fill="none" stroke="rgba(16,20,38,.9)" stroke-width="2" stroke-linejoin="round"/>
-                  <path d="M8.3 14.5L20.5 6.3" fill="none" stroke="rgba(16,20,38,.9)" stroke-width="2" stroke-linecap="round"/>
-                  <path d="M8.2 14.6l3.6 2.6" fill="none" stroke="rgba(16,20,38,.9)" stroke-width="2" stroke-linecap="round"/>
+                <path d="M21 4L3.7 11.2c-.9.4-.9 1.6.1 1.9l4.5 1.4 1.7 5.3c.3.9 1.5 1.1 2 .3l2.6-3.9 4.7 3.4c.8.6 1.9.1 2.1-.9L23 5.6c.2-1.1-.9-2-2-1.6z"
+                        fill="none" stroke="rgba(16,20,38,.9)" stroke-width="2" stroke-linejoin="round"/>
+                <path d="M8.3 14.5L20.5 6.3" fill="none" stroke="rgba(16,20,38,.9)" stroke-width="2" stroke-linecap="round"/>
+                <path d="M8.2 14.6l3.6 2.6" fill="none" stroke="rgba(16,20,38,.9)" stroke-width="2" stroke-linecap="round"/>
                 </svg>
               </span>
               <span class="link-text">
-                <span class="link-title">Telegram</span>
-                <span class="link-sub">Группа в телеграм</span>
+                <strong>Telegram</strong>
+                <span>Группа в телеграм</span>
               </span>
               <span class="chev" aria-hidden="true">
                 <svg width="18" height="18" viewBox="0 0 24 24">
@@ -236,16 +258,19 @@
                 </svg>
               </span>
             </a>
-          </li>
-        </ul>
-      </section>
 
-      <footer class="footer">
-        © <span id="y"></span> Yo! Galina
-      </footer>
+          </section>
+          <footer>
+            © <span id="y"></span> Yo! Galina
+
+          </footer>
+        </div>
+      </div>
     </main>
 
+
     <script>
+      // year in footer
       document.getElementById('y').textContent = new Date().getFullYear();
     </script>
   </body>
