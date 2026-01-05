@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Yo! Galina</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/android-chrome-512x512.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/android-chrome-192x192.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main class="page">
+      <section class="window">
+        <div class="card">
+          <!-- left -->
+          <div class="left">
+            <div class="brand">
+              <span class="dot" aria-hidden="true"></span>
+              <span>Yo! Galina</span>
+            </div>
+
+            <h1 class="title">Йога с Галей</h1>
+
+            <p class="subtitle">
+              Индивидуальные и групповые занятия по йоге для всех уровней подготовки
+            </p>
+
+            <div class="chips">
+              <div class="chip">
+                <span class="chip-ico" aria-hidden="true">📍</span>
+                <span>Ramat Gan</span>
+              </div>
+
+              <div class="chip">
+                <span class="chip-ico" aria-hidden="true">✦</span>
+                <span>Оффлайн + онлайн</span>
+              </div>
+            </div>
+
+            <div class="chips chips--social">
+              <a class="chip chip--link" href="https://www.instagram.com/yo_galina/" target="_blank" rel="noreferrer">
+                <svg class="ico" aria-hidden="true"><use href="#ico-instagram"></use></svg>
+                <span>Instagram</span>
+              </a>
+
+              <a class="chip chip--link" href="https://wa.me/972587823076" target="_blank" rel="noreferrer">
+                <svg class="ico" aria-hidden="true"><use href="#ico-whatsapp"></use></svg>
+                <span>WhatsApp</span>
+              </a>
+
+              <a class="chip chip--link" href="https://t.me/yo_galina" target="_blank" rel="noreferrer">
+                <svg class="ico" aria-hidden="true"><use href="#ico-telegram"></use></svg>
+                <span>Telegram</span>
+              </a>
+            </div>
+
+
+          </div>
+
+          <!-- right -->
+          <div class="right">
+            <div class="hero-circle">
+              <!-- поставь свою картинку -->
+              <img
+                class="hero-img"
+                src="img/i1.png"
+                alt="Йога"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick links + accordion -->
+        <section class="panel">
+          <h2 class="panel__title">Быстрые ссылки</h2>
+
+          <details class="acc">
+            <summary class="acc__summary">
+              <span class="acc__left">
+                <span class="acc__icon acc__icon--yellow" aria-hidden="true">🕒</span>
+                <span class="acc__text">
+                  <span class="acc__name">Расписание</span>
+                  <span class="acc__hint">Неделя / ближайшие классы</span>
+                </span>
+              </span>
+              <span class="acc__chev" aria-hidden="true"></span>
+            </summary>
+
+            <div class="acc__body">
+              <!-- <p class="acc__p">Тут будет контент расписания (текст, ссылки, таблица или кнопка).</p> -->
+              <ul class="acc__list">
+                <li>Воскресенье - 19:30 - <a href="https://maps.app.goo.gl/u34gE5sqYrJtzWiY6" target="_blank" rel="noreferrer" aria-label="Открыть на карте">Рамат Ган, ул. Шило, 4</a></li>
+                <li>Среда - 19:15 - <a href="https://maps.app.goo.gl/QsadpobBFnYBbNJd9" target="_blank" rel="noreferrer" aria-label="Открыть на карте">Рамат Ган, ул. Сдерот а-елед, 8</a></li>
+                <li>Суббота - 10:00 - <a href="https://maps.app.goo.gl/LHcPE7vhMXeEEdWb6" target="_blank" rel="noreferrer" aria-label="Открыть на карте">Парк Яркон</a></li>
+              </ul>
+            </div>
+          </details>
+
+          <details class="acc">
+            <summary class="acc__summary">
+              <span class="acc__left">
+                <span class="acc__icon acc__icon--blue" aria-hidden="true">💳</span>
+                <span class="acc__text">
+                  <span class="acc__name">Цены / абонементы</span>
+                  <span class="acc__hint">Разовые / абонементы / пробное</span>
+                </span>
+              </span>
+              <span class="acc__chev" aria-hidden="true"></span>
+            </summary>
+
+            <div class="acc__body">
+              <ul class="acc__list">
+                <li>Пробное занятие — бесплатно </li>
+                <li>Разовое — ₪70</li>
+                <li>Абонемент на месяц 1 раз в неделю (4 занятия) — ₪220</li>
+                <li>Абонемент на месяц 2 раза в неделю (8 занятий) — ₪350</li>
+              </ul>
+            </div>
+          </details>
+
+          <details class="acc">
+            <summary class="acc__summary">
+              <span class="acc__left">
+                <span class="acc__icon acc__icon--pink" aria-hidden="true">🧘</span>
+                <span class="acc__text">
+                  <span class="acc__name">Направления</span>
+                  <span class="acc__hint">Силовая йога в группах, индивидуально по запросу</span>
+                </span>
+              </span>
+              <span class="acc__chev" aria-hidden="true"></span>
+            </summary>
+
+            <div class="acc__body">
+              <p class="acc__p">Силовая йога</p>
+            </div>
+          </details>
+
+          <details class="acc">
+            <summary class="acc__summary">
+              <span class="acc__left">
+                <span class="acc__icon acc__icon--mint" aria-hidden="true">📍</span>
+                <span class="acc__text">
+                  <span class="acc__name">Как добраться</span>
+                  <span class="acc__hint">2 локации / карта</span>
+                </span>
+              </span>
+              <span class="acc__chev" aria-hidden="true"></span>
+            </summary>
+
+            <div class="acc__body">
+              <div class="place">             
+                <div class="photos">
+                  <figure class="photo">
+                    <a class="photo__link" href="https://maps.app.goo.gl/QsadpobBFnYBbNJd9" target="_blank" rel="noreferrer" aria-label="Открыть на карте"></a>
+
+                    <img src="img/i3.jpg" alt="Рамат Ган, ул. Сдерот а-елед, 8" />
+
+                    <figcaption class="photo__cap">
+                      <div class="photo__title">
+                        <strong>Рамат Ган,</strong>
+                        <span>ул. Сдерот а-елед, 8</span>
+                      </div>
+                      <span class="place__link">Посмотреть на карте →</span>
+                    </figcaption>
+                  </figure>
+
+                  <figure class="photo">
+                    <a class="photo__link" href="https://maps.app.goo.gl/LHcPE7vhMXeEEdWb6" target="_blank" rel="noreferrer" aria-label="Открыть на карте"></a>
+
+                    <img src="img/i2.jpg" alt="Парк Яркон, Шева Таханот" />
+
+                    <figcaption class="photo__cap">
+                      <div class="photo__title">
+                        <strong>Парк Яркон,</strong>
+                        <span>Шева Таханот</span>
+                      </div>
+                      <span class="place__link">Посмотреть на карте →</span>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+
+          </details>
+        </section>
+        <footer class="window-footer">
+          © <span id="year"></span> Yo! Galina
+        </footer>
+      </section>
+
+    </main>
+    <script>
+      document.querySelectorAll('.acc').forEach((acc) => {
+        const body = acc.querySelector('.acc__body');
+        if (!body) return;
+
+        // стартовое состояние для open (чтобы не "прыгало")
+        if (acc.hasAttribute('open')) {
+          body.style.maxHeight = body.scrollHeight + 'px';
+        }
+
+        acc.addEventListener('toggle', () => {
+          // закрытие
+          if (!acc.open) {
+            body.style.maxHeight = body.scrollHeight + 'px';
+            requestAnimationFrame(() => (body.style.maxHeight = '0px'));
+            return;
+          }
+
+          // открытие
+          body.style.maxHeight = '0px';
+          requestAnimationFrame(() => {
+            body.style.maxHeight = body.scrollHeight + 'px';
+          });
+        });
+
+        // чтобы после открытия контент мог расти (если текст/картинки подгрузятся)
+        window.addEventListener('resize', () => {
+          if (acc.open) body.style.maxHeight = body.scrollHeight + 'px';
+        });
+      });
+    </script>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+    <svg xmlns="http://www.w3.org/2000/svg" style="position:absolute;width:0;height:0;overflow:hidden" aria-hidden="true">
+      <symbol id="ico-instagram" viewBox="0 0 24 24">
+        <path d="M7.5 3h9A4.5 4.5 0 0 1 21 7.5v9A4.5 4.5 0 0 1 16.5 21h-9A4.5 4.5 0 0 1 3 16.5v-9A4.5 4.5 0 0 1 7.5 3Z" fill="none" stroke="currentColor" stroke-width="1.8"/>
+        <path d="M12 16.2a4.2 4.2 0 1 1 0-8.4 4.2 4.2 0 0 1 0 8.4Z" fill="none" stroke="currentColor" stroke-width="1.8"/>
+        <path d="M17.3 6.9h.01" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+      </symbol>
+
+      <symbol id="ico-whatsapp" viewBox="0 0 24 24">
+        <path d="M20 11.8a8 8 0 0 1-11.8 7l-3.2.8.9-3.1A8 8 0 1 1 20 11.8Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+        <path d="M9.4 9.2c.2-.5.4-.6.8-.6h.6c.2 0 .5.1.6.4l.7 1.6c.1.2.1.5 0 .7l-.5.6c-.1.2-.2.4 0 .6.5.9 1.3 1.6 2.2 2.1.2.1.4.1.6 0l.7-.5c.2-.1.5-.1.7 0l1.5.7c.3.1.4.4.4.6v.6c0 .4-.2.7-.6.8-.7.3-1.9.3-3.3-.2-1.9-.7-4-2.7-4.9-4.6-.6-1.3-.6-2.6-.3-3.2Z"
+              fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+      </symbol>
+
+      <symbol id="ico-telegram" viewBox="0 0 24 24">
+        <path d="M20.6 4.6 3.8 11.1c-.9.4-.8 1.7.1 2l3.9 1.3 1.5 4.7c.3.9 1.5 1 1.9.2l2.2-3.3 4.2 3.1c.8.6 2 .2 2.2-.8l2.6-12.2c.2-1-.8-1.8-1.8-1.5Z"
+              fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+        <path d="M7.8 14.4 18.5 7.7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+      </symbol>
+    </svg>
+
+  </body>
+</html>
