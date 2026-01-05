@@ -17,13 +17,15 @@
 Нет информации
 
 
-## Что было сделано
+## Menora - מנורה מבטחים פנסיה וגמל בע"מ
 
-### Шаг 1.
-В каждую огранизацию из таблицы [Пенсионные и страховые активы](#пенсионные-и-страховые-активы) отравили email:
-- N1, N2 - [email](https://mail.google.com/mail/u/0/#sent/CllgCJZWxDdvpbDGZpqjkglTzslbwxMlPFNrKqxmDzxlJbVkwsNbSDlSSxZbhvFZjZDBwDhjKcL)
-- N3 - [email](https://mail.google.com/mail/u/0/#sent/DmwnWtDvfLQZHSHrkdfxwkqMhDQgwHSDSsQCfGDbpWfdTZmXRHgqflNhlVsxmGTWKHfrKtjHcFBG)
-- N4 - [email](https://mail.google.com/mail/u/0/#sent/DmwnWsdMWPfrjzcbRVXQbHZcgxKbmQgvZmdRXqGhCknKMvxRVTDxWNnfqdvHqQzblrjkMNvRzwfQ)
+
+
+В этой компаннии находятся два актива: Купот Гемель и Керен Пенсия (см. таблицу [Пенсионные и страховые активы](#пенсионные-и-страховые-активы))
+
+### Шаг 1. 
+Мы направили запрос через [email](https://mail.google.com/mail/u/0/#sent/CllgCJZWxDdvpbDGZpqjkglTzslbwxMlPFNrKqxmDzxlJbVkwsNbSDlSSxZbhvFZjZDBwDhjKcL)
+
 
 ```text
 שלום רב,
@@ -55,3 +57,48 @@
 טלפון: 0587823076
 דוא"ל: galbitov@gmail.com
 ```
+
+## Migdal -  מגדל מקפת קרנות פנסיה וקופות גמל בע"מ
+
+### Шаг 1. 
+Мы направили запрос через [email](https://mail.google.com/mail/u/0/#sent/DmwnWtDvfLQZHSHrkdfxwkqMhDQgwHSDSsQCfGDbpWfdTZmXRHgqflNhlVsxmGTWKHfrKtjHcFBG)
+
+### Шаг 2. 
+Получили [email](https://mail.google.com/mail/u/0/#sent/lLtBPchKmGvzvrPsFmrjqzDCVXszhqbWJTvmKLPnmzFHfSqqNKqtbclqQgQVNmBBVFpvZvKn) от Мигдаль.  
+- Просят заполнить [d1_טופס פדיון שארים.pdf](./f3_docs/f2_Migdal/d1_טופס%20פדיון%20שארים.pdf)
+- Прислали [d2_טופס עזר - אנדריי אלביטוב](./f3_docs/f2_Migdal/d2_טופס%20עזר%20-%20אנדריי%20אלביטוב.pdf)  
+
+
+#### Расшифровка документа d2_טופס עזר - אנדריי אלביטוב - Отчёт о выкупной (ликвидационной) стоимости пенсионных накоплений
+
+Документ подтверждает наличие **пенсионных накоплений в Мигдаль Макефет**
+на общую сумму **12,175 ₪**, которые подлежат дальнейшему оформлению
+в рамках процедуры получения средств наследниками.
+
+Две пенсионные программы типа **“מקפת איש”** (индивидуальные пенсионные накопления):
+
+- Программа № **630260266**
+- Программа № **630277165**
+
+---
+
+#### Остатки денежных средств
+
+Согласно отчёту, на пенсионных счетах числятся следующие суммы:
+
+| Пенсионная программа | Сумма, ₪ |
+|---------------------|---------|
+| 630260266 | 12,120 |
+| 630277165 | 55 |
+| **Итого (полная выкупная стоимость)** | **12,175** |
+
+
+---
+
+
+## Klal - כלל חברה לביטוח בע"מ
+
+### Шаг 1. 
+Мы направили запрос через [email](https://mail.google.com/mail/u/0/#sent/DmwnWsdMWPfrjzcbRVXQbHZcgxKbmQgvZmdRXqGhCknKMvxRVTDxWNnfqdvHqQzblrjkMNvRzwfQ)
+
+
