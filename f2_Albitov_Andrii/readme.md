@@ -64,9 +64,15 @@
 Мы направили запрос через [email](https://mail.google.com/mail/u/0/#sent/DmwnWtDvfLQZHSHrkdfxwkqMhDQgwHSDSsQCfGDbpWfdTZmXRHgqflNhlVsxmGTWKHfrKtjHcFBG)
 
 ### Шаг 2. 
-Получили [email](https://mail.google.com/mail/u/0/#sent/lLtBPchKmGvzvrPsFmrjqzDCVXszhqbWJTvmKLPnmzFHfSqqNKqtbclqQgQVNmBBVFpvZvKn) от Мигдаль.  
-- Просят заполнить [d1_טופס פדיון שארים.pdf](./f3_docs/f2_Migdal/d1_טופס%20פדיון%20שארים.pdf)
-- Прислали [d2_טופס עזר - אנדריי אלביטוב](./f3_docs/f2_Migdal/d2_טופס%20עזר%20-%20אנדריי%20אלביטוב.pdf)  
+Получили [email](https://mail.google.com/mail/u/0/#inbox/WhctKLbmrLFGxBqVQRjCngVNtPpspHQnlzwxMbKSsFRmWPtfJNKxTTxrHzNGBqVrlKFnwNV) от Мигдаль.  
+
+- Прислали документы:
+  - [d1_טופס פדיון שארים](./f3_docs/f2_Migdal/f2_receive_from_migdal/d1_טופס%20פדיון%20שארים.pdf)
+  - [d2_טופס עזר - אנדריי אלביטוב](./f3_docs/f2_Migdal/f2_receive_from_migdal/d2_טופס%20עזר%20-%20אנדריי%20אלביטוב.pdf)
+
+- Просят комплект документов:
+  - Заполненный [d1_טופס פדיון שארים.pdf](./f3_docs/f2_Migdal/d1_טופס%20פדיון%20שארים.pdf)
+  - Свидетельство о смерти - תעודת פטירה. В данном случае отправляем выписку из МВД - [d1_תמצית רישום ממרשם האוכלוסין_Albitov_Andrii](./f3_docs/f2_Migdal/f1_to_send_to_migdal/d1_תמצית%20רישום%20ממרשם%20האוכלוסין_Albitov_Andrii.pdf.lnk)  
 
 
 #### Расшифровка документа d2_טופס עזר - אנדריי אלביטוב - Отчёт о выкупной (ликвидационной) стоимости пенсионных накоплений
