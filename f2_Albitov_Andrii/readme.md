@@ -224,3 +224,20 @@ d6_Account_ownership_confirmation_Albitova_Galina
 Мы направили запрос через [email](https://mail.google.com/mail/u/0/#sent/DmwnWsdMWPfrjzcbRVXQbHZcgxKbmQgvZmdRXqGhCknKMvxRVTDxWNnfqdvHqQzblrjkMNvRzwfQ)
 
 
+## Tax Authority - מס הכנסה
+
+### Шаг 1. 
+Запрос `ניכוי מס במקור` в מס הכנסה через [онлайн-форму](https://secapp.taxes.gov.il/sr-crm-pniyot/main/newIncident) обращений
+
+### Шаг 2. 
+Получили [ответ](https://secapp.taxes.gov.il/sr-crm-pniyot/main/historyIncident?fromSystem=1). Налоговая просит предоставить формы 161 от работодателей
+
+```text
+שלום, יש לצרף טופס161 מהמעסיק שהפריש את כספי הפיצויים- ללא הטופס כספי הפיצויים יחוייבו בהתאם למס שולי של היורשים.
+```
+
+### Шаг 3. 
+
+Направили [email](https://mail.google.com/mail/u/0/#sent/DmwnWtDvfCgzmSdpzqtFxMPCsLXmGDbTJvLHFXtmWrSwSjTCztcKCmZMqQMMrxrQWHTpfchqQjTG) с просьбой получить форму 161 в [Пекарня Берман (מאפית ברמן / י את א ברמן בע"מ)](https://berman.co.il/%D7%A6%D7%95%D7%A8-%D7%A7%D7%A9%D7%A8/)
+
+Направили [email](https://mail.google.com/mail/u/0/#sent/CllgCJqXxwqPspZWBHncblsXNLWzrdCfGsVTgMksjMbXVtMCMfBJcrVWhwvhRqSNNhNgQSdHKtg) с просьбой получить форму 161 в [Амаль у-Меэвер (עמל ומעבר בע"מ)](https://www.amalgroup.co.il/)
