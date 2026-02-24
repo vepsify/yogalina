@@ -166,7 +166,32 @@ d6_Account_ownership_confirmation_Albitova_Galina
 
 ### Шаг 5. 
 
-Запрос `ניכוי מס במקור` в מס הכנסה через [онлайн-форму](https://secapp.taxes.gov.il/sr-crm-pniyot/main/newIncident) обращений
+24.02.2025 отправили в Менора [email](https://mail.google.com/mail/u/0/#sent/CllgCJNvvsMQBHXMskvfcBbXzGXTcVGNdGPDHxVHKkxWQLDLRwTvDkWVcsGCTgWzGNGWckfsQjB) с запросом на получение средств и списком необходимых документов
+
+```text
+שלום רב,
+
+שמי גלינה אלביטובה, ת"ז 342495306, ואני בתו של המנוח אנדריי אלביטוב ז"ל, ת"ז 323409862, שנפטר בתאריך 10.02.2023.
+
+ברשותי דוחות ריכוז יתרות עדכניים שהונפקו על שמכם בתאריך 04.01.2026, המעידים על קיומם של הכספים הבאים בניהולכם:
+
+
+קרן פנסיה (מנורה מבטחים פנסיה): חשבון מספר 168 (קוד אוצר 512245812-00000000000168-2009-112), ובו יתרה צבורה בסך 36,424 ש"ח נכון ליום 04.01.2026.
+
+קופת גמל (מנורה מבטחים תגמולים): חשבון מספר 70525082, ובו יתרה בסך 515 ש"ח נכון ליום 01.01.2026.
+
+
+מצורפים למכתב זה:
+d1_דוח ריכוז יתרות של קרן הפנסיה של המנוח אנדריי אלביטוב
+d2_דוח ריכוז יתרות של קופת גמל של המנוח אנדריי אלביטוב
+d3_תמצית רישום ממרשם האוכלוסין_Albitov_Andrii
+d4_צו ירושה_Albitov_Andrii
+d5_id_plus_id_application_Albitova_Galina
+d6_Account_ownership_confirmation_Albitova_Galina
+d5_ITA_אישור לצורך ניכוי מס במקור
+```
+
+
 
 ## Migdal -  מגדל מקפת קרנות פנסיה וקופות גמל בע"מ
 
@@ -237,7 +262,11 @@ d6_Account_ownership_confirmation_Albitova_Galina
 ```
 
 ### Шаг 3. 
-
 Направили [email](https://mail.google.com/mail/u/0/#sent/DmwnWtDvfCgzmSdpzqtFxMPCsLXmGDbTJvLHFXtmWrSwSjTCztcKCmZMqQMMrxrQWHTpfchqQjTG) с просьбой получить форму 161 в [Пекарня Берман (מאפית ברמן / י את א ברמן בע"מ)](https://berman.co.il/%D7%A6%D7%95%D7%A8-%D7%A7%D7%A9%D7%A8/)
 
 Направили [email](https://mail.google.com/mail/u/0/#sent/CllgCJqXxwqPspZWBHncblsXNLWzrdCfGsVTgMksjMbXVtMCMfBJcrVWhwvhRqSNNhNgQSdHKtg) с просьбой получить форму 161 в [Амаль у-Меэвер (עמל ומעבר בע"מ)](https://www.amalgroup.co.il/)
+
+### Шаг 4. 
+Получили [ответ](https://mail.google.com/mail/u/0/#inbox/WhctKLbvVZQVggvfxflhjhdfrpGnfhsRHHThmmqJrrFHnpSngrvJXDRGVXCzBVtCBZCDNSq).  
+Налоговая прислала `אישור לצורך ניכוי מס במקור`
+
