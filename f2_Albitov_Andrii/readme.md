@@ -166,7 +166,7 @@ d6_Account_ownership_confirmation_Albitova_Galina
 
 ### Шаг 5. 
 
-24.02.2025 отправили в Менора [email](https://mail.google.com/mail/u/0/#sent/CllgCJNvvsMQBHXMskvfcBbXzGXTcVGNdGPDHxVHKkxWQLDLRwTvDkWVcsGCTgWzGNGWckfsQjB) с запросом на получение средств и списком необходимых документов
+24.02.2025 отправили в Менора [email](https://mail.google.com/mail/u/0/#sent/jrjtXFBjtstQdHNGKJJkfQzvcGkQmVjgtVqlfHDCHPtbbgtzRlJzGkwVTKVbtFqKsswDLpDs) с запросом на получение средств и списком необходимых документов
 
 ```text
 שלום רב,
